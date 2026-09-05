@@ -1,0 +1,53 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Dataset
+# =========================
+data/ua_detrac/raw/
+data/ua_detrac/yolo/images/
+data/ua_detrac/yolo/labels/
+
+# =========================
+# Model weights
+# =========================
+*.pt
+*.onnx
+*.engine
+
+# =========================
+# Training outputs
+# =========================
+runs/
+
+# =========================
+# Videos
+# =========================
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+
+# =========================
+# C++ / CMake
+# =========================
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
