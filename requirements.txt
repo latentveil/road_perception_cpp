@@ -1,0 +1,8 @@
+ultralytics==8.4.140
+numpy==1.26.4
+opencv-python==4.11.0.86
+torch==2.7.0
+torchvision==0.22.0
+onnx==1.19.1
+onnxruntime-gpu==1.19.2
+onnxslim==0.1.96

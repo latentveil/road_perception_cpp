@@ -15,9 +15,7 @@ venv/
 # =========================
 # Dataset
 # =========================
-data/ua_detrac/raw/
-data/ua_detrac/yolo/images/
-data/ua_detrac/yolo/labels/
+data/
 
 # =========================
 # Model weights
@@ -27,9 +25,10 @@ data/ua_detrac/yolo/labels/
 *.engine
 
 # =========================
-# Training outputs
+# Training / inference outputs
 # =========================
 runs/
+results/
 
 # =========================
 # Videos
@@ -37,6 +36,15 @@ runs/
 videos/*.mp4
 videos/*.avi
 videos/*.mov
+
+# =========================
+# Third-party downloads
+# =========================
+third_party/ByteTrack/
+third_party/onnxruntime-linux-x64-gpu-*/
+third_party/*.tgz
+third_party/*.tar.gz
+third_party/*.zip
 
 # =========================
 # C++ / CMake
