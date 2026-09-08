@@ -847,8 +847,10 @@ int main(
               "MVI_20012.mp4";
 
     const std::string output_path =
-        "results/tracking/"
-        "MVI_20012_cpp_bytetrack.mp4";
+        argc > 3
+            ? argv[3]
+            : "results/tracking/"
+              "MVI_20012_cpp_bytetrack.mp4";
 
     constexpr int input_size = 640;
     constexpr int num_classes = 4;
