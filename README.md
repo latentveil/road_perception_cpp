@@ -435,6 +435,12 @@ Qualitative inspection showed persistent Track IDs under substantial object moti
 
 No formal MOTA, IDF1 or HOTA result is claimed in this repository.
 
+### Demo
+
+[Watch the 12-second C++ detection and tracking demo](demo/MVI_20012_cpp_bytetrack_demo.mp4)
+
+The demo is a 960×540, 25 FPS H.264 excerpt generated from the final C++ ONNX Runtime + ByteTrack pipeline output.
+
 ## Performance Benchmark
 
 Benchmark hardware:
