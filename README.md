@@ -374,10 +374,10 @@ results/tracking/MVI_20012_cpp_bytetrack.mp4
 
 The output directory is created automatically.
 
-The program can also receive model and video paths through command-line arguments:
+The program can also receive model, video, and output paths through command-line arguments:
 
 ```bash
-./scripts/run_cpp.sh path/to/model.onnx path/to/video.mp4
+./scripts/run_cpp.sh path/to/model.onnx path/to/video.mp4 path/to/output.mp4
 ```
 
 ## C++ Processing Chain
@@ -457,23 +457,23 @@ Final validated run:
 
 | Stage | Average latency |
 |---|---:|
-| Preprocess | 13.286 ms |
-| ONNX Runtime CUDA inference | 4.790 ms |
-| Postprocess + NMS | 0.157 ms |
-| ByteTrack | 1.003 ms |
-| Full perception pipeline | 19.243 ms |
+| Preprocess | 13.414 ms |
+| ONNX Runtime CUDA inference | 4.672 ms |
+| Postprocess + NMS | 0.159 ms |
+| ByteTrack | 1.024 ms |
+| Full perception pipeline | 19.275 ms |
 
 Latency distribution:
 
 ```text
-P50: 18.992 ms
-P95: 20.992 ms
+P50: 18.930 ms
+P95: 22.809 ms
 ```
 
 Throughput:
 
 ```text
-51.968 FPS
+51.880 FPS
 ```
 
 The benchmarked pipeline is defined as:
