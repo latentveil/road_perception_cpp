@@ -297,6 +297,8 @@ The integrated tracker contains:
 - lost-track buffering
 - Track ID maintenance
 
+The tracking core is adapted from the upstream `FoundationVision/ByteTrack` implementation.
+
 The ByteTrack-derived code retains its upstream license in:
 
 ```text
