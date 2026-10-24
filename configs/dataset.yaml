@@ -1,0 +1,15 @@
+# All paths below are relative to the DATA_ROOT environment variable.
+annotations: ua_detrac/raw/Annos/DETRAC-Train-Annotations-XML
+images: ua_detrac/raw/DETRAC-Images
+processed: ua_detrac/processed
+videos: ua_detrac/videos
+fps: 25.0
+expected_sequences: 60
+# Split files are relative to the repository root.
+train_sequences: configs/splits/train_sequences.txt
+val_sequences: configs/splits/val_sequences.txt
+names:
+  0: car
+  1: bus
+  2: van
+  3: others

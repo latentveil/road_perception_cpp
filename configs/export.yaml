@@ -1,0 +1,6 @@
+imgsz: 640
+opset: 12
+simplify: true
+dynamic: false
+nms: false
+device: 0

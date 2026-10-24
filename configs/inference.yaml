@@ -1,0 +1,8 @@
+input_size: 640
+device: 0
+confidence: 0.10
+iou: 0.70
+warmup_frames: 50
+binary: build/bin/road_perception
+onnxruntime: third_party/onnxruntime-linux-x64-gpu-1.19.2
+names: [car, bus, van, others]

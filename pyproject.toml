@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "road-perception-cpp"
+version = "0.2.0"
+description = "Vehicle detection and tracking on UA-DETRAC"
+requires-python = ">=3.9"
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+[tool.setuptools.packages.find]
+where = ["src"]

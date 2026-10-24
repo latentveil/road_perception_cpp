@@ -1,61 +1,29 @@
-# =========================
-# Python
-# =========================
 __pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
-venv/
-
-# =========================
-# IDE
-# =========================
-.vscode/
 .idea/
-
-# =========================
-# Dataset
-# =========================
-data/
-
-# =========================
-# Model weights
-# =========================
+.vscode/
+/build/
+/data/
+/Ultralytics/
+third_party/onnxruntime-*/
+*.tgz
+*.tar.gz
+*.zip
 *.pt
 *.onnx
 *.engine
-
-# =========================
-# Training / inference outputs
-# =========================
-runs/
-results/
-
-# =========================
-# Videos
-# =========================
-videos/*.mp4
-videos/*.avi
-videos/*.mov
-
-# =========================
-# Third-party downloads
-# =========================
-third_party/ByteTrack/
-third_party/onnxruntime-linux-x64-gpu-*/
-third_party/*.tgz
-third_party/*.tar.gz
-third_party/*.zip
-
-# =========================
-# C++ / CMake
-# =========================
-build/
-cmake-build-*/
-CMakeCache.txt
-CMakeFiles/
-
-# =========================
-# OS
-# =========================
 .DS_Store
 Thumbs.db
+/1.py
+/weights/
+/outputs/
+/road_perception_update/
+
+/runs/*
+!/runs/.gitkeep
+!/runs/weights/
+/runs/weights/*
+!/runs/weights/*.pt
+!/runs/weights/*.onnx
